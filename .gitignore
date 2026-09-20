@@ -1,29 +1,37 @@
-# ============================================================
-# MistRoost — Narrative 仓库
-# 本仓库仅收录 Narrative（剧情）与设计文档（README.md + Docs/）。
-# 游戏代码、资产、构建产物一律不纳入，确保远端协作者只能看到设计相关内容。
-# ============================================================
-
-# --- 操作系统 / 编辑器杂项 ---
+# Documentation repository: no engine or DCC source payloads
+.git-credentials
+.netrc
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.blend
+*.blend1
+*.fbx
+*.glb
+*.gltf
+*.uasset
+*.umap
+*.spp
+*.psd
+*.kra
+*.zip
+*.7z
+*.rar
+*.tar
+*.log
+*.tmp
+*.bak
+**/Binaries/
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+**/node_modules/
+**/__pycache__/
+**/.cache/
+**/.docs-migration-backup/
 .DS_Store
 Thumbs.db
 desktop.ini
-*~
-.vs/
-.vscode/
-.idea/
-
-# --- Unreal Engine 代码 / 资产 / 构建产物（安全网：本仓库不收录）---
-/Source/
-/Content/
-/Config/
-/Plugins/
-/Binaries/
-/Intermediate/
-/Saved/
-/DerivedDataCache/
-*.uproject
-*.sln
-*.suo
-*.VC.db
-*.sdf

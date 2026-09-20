@@ -1,0 +1,23 @@
+name: Documentation checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate standalone documentation repository
+        run: node 工具/validate-docs.mjs
+      - name: Check patch whitespace
+        run: git diff --check
+# Maintainer should review and pin action commit SHAs before enforcing a production supply-chain policy.
+# This workflow has not run on GitHub until these local changes are committed and pushed.
