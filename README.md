@@ -1,6 +1,6 @@
 # 岚栖 / MistRoost · 文档库
 
-> 更新：2026-09-24 · 当前方向：**全面 3D × 珊瑚岛式固定鸟瞰镜头**，中式淡彩手绘风格不变。本阶段目标：众筹 Demo，第一个关卡是半山庄园。
+> 更新：2026-10-01 · 当前方向：**全面 3D × 珊瑚岛式固定鸟瞰镜头**；画风 2026-10-01 改为对标《牧场物语 来吧！风之繁华集市》的卡通渲染，加中式元素。本阶段目标：众筹 Demo，第一个关卡是半山庄园。
 > 文档仓库：[MazZen-z/MistRoost_Narrative](https://github.com/MazZen-z/MistRoost_Narrative)；程序仓库：[MazZen-z/MistRoost](https://github.com/MazZen-z/MistRoost)。
 
 ## 从这里开始
